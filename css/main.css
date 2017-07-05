@@ -8,8 +8,10 @@ body {
     background: -o-linear-gradient(#63CD00, #00B4C2); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#63CD00, #00B4C2); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#63CD00, #00B4C2); /* Standard syntax */
-    line-height: 15px;
     z-index: 0;
+}
+.index {
+    line-height: 15px;
 }
 .photo {
     background: url("../img/back.jpg") center center no-repeat;
@@ -48,4 +50,28 @@ body {
     text-align: right !important;
     margin-right: -15px;
     margin-top: -5px;
+}
+.intro-text {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    text-align: right;
+}
+.bottom-definition {
+    font-size: 14px !important;
+    width: 100%;
+    margin: 0 auto;
+    height: 83vh;
+    position: relative;
+}
+.bottom-definition p {
+    line-height: 25px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid white;
+    width: 100%;
+}
+.bottom-definition span {
+    font-weight: bold;
 }
