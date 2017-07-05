@@ -13,6 +13,7 @@ body {
 }
 .photo {
     background: url("../img/back.jpg") center center no-repeat;
+    background-size: cover;
     position: absolute;
     width: 100vw;
     height: 100vh;
