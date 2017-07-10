@@ -75,3 +75,27 @@ body {
 .bottom-definition span {
     font-weight: bold;
 }
+.two-words {
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+}
+.two-words-canvas {
+    width: 100vw;
+    height: 27vh;
+    position: absolute;
+}
+#c1 {
+    top: 10%;
+}
+#c2 {
+    top: 18%;
+}
+#c3 {
+    top: 26%;
+}
+#c4 {
+    top: 34%;
+}

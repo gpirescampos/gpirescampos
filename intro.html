@@ -26,6 +26,12 @@
         <div>
             <p class="intro-text">Deeply passionate about technology and everything that it implies</p>
         </div>
+        <div class="two-words">
+            <canvas id="c1" class="two-words-canvas"></canvas>
+            <canvas id="c2" class="two-words-canvas"></canvas>
+            <canvas id="c3" class="two-words-canvas"></canvas>
+            <canvas id="c4" class="two-words-canvas"></canvas>
+        </div>
         <div class="bottom-definition">
             <p><span>* Desenrascanço: </span>to pull a MacGyver</p>
         </div>
@@ -43,5 +49,81 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+        <script>
+            var wWidth = $("#c1").innerWidth();
+            var wHeight = $("#c1").innerHeight();
+            var c = document.getElementById("c1");
+            c.width = wWidth;
+            c.height = wHeight;
+            var ctx = c.getContext("2d");
+            ctx.fillStyle="#009C00";
+            ctx.moveTo(0,0);
+            ctx.lineTo(wWidth,0);
+            ctx.lineTo(wWidth,wHeight/4.3);
+            ctx.lineTo(0,wHeight);
+            ctx.lineTo(0,wHeight-wHeight/4.3);
+            ctx.lineTo(wWidth,0);
+            ctx.lineTo(wWidth,wHeight/4.3);
+            ctx.lineTo(0,wHeight/4.3);
+            ctx.lineTo(0,0);
+            ctx.fill();
+            ctx.fillStyle="white";
+            ctx.font = "100 25px Open Sans";
+            ctx.fillText("techie",30,30);
+            c = document.getElementById("c2");
+            c.width = wWidth;
+            c.height = wHeight;
+            ctx = c.getContext("2d");
+            ctx.fillStyle="#008C00";
+            ctx.moveTo(0,0);
+            ctx.lineTo(wWidth,0);
+            ctx.lineTo(wWidth,wHeight/4.3);
+            ctx.lineTo(0,wHeight);
+            ctx.lineTo(0,wHeight-wHeight/4.3);
+            ctx.lineTo(wWidth,0);
+            ctx.lineTo(wWidth,wHeight/4.3);
+            ctx.lineTo(0,wHeight/4.3);
+            ctx.lineTo(0,0);
+            ctx.fill();
+            ctx.fillStyle="white";
+            ctx.font = "100 25px Open Sans";
+            ctx.fillText("swift learner",30,30);
+            c = document.getElementById("c3");
+            c.width = wWidth;
+            c.height = wHeight;
+            ctx = c.getContext("2d");
+            ctx.fillStyle="#007C00";
+            ctx.moveTo(0,0);
+            ctx.lineTo(wWidth,0);
+            ctx.lineTo(wWidth,wHeight/4.3);
+            ctx.lineTo(0,wHeight);
+            ctx.lineTo(0,wHeight-wHeight/4.3);
+            ctx.lineTo(wWidth,0);
+            ctx.lineTo(wWidth,wHeight/4.3);
+            ctx.lineTo(0,wHeight/4.3);
+            ctx.lineTo(0,0);
+            ctx.fill();
+            ctx.fillStyle="white";
+            ctx.font = "100 25px Open Sans";
+            ctx.fillText("problem solver *",30,30);
+            c = document.getElementById("c4");
+            c.width = wWidth;
+            c.height = wHeight;
+            ctx = c.getContext("2d");
+            ctx.fillStyle="#006D00";
+            ctx.moveTo(0,0);
+            ctx.lineTo(wWidth,0);
+            ctx.lineTo(wWidth,wHeight/4.3);
+            ctx.lineTo(0,wHeight);
+            ctx.lineTo(0,wHeight-wHeight/4.3);
+            ctx.lineTo(wWidth,0);
+            ctx.lineTo(wWidth,wHeight/4.3);
+            ctx.lineTo(0,wHeight/4.3);
+            ctx.lineTo(0,0);
+            ctx.fill();
+            ctx.fillStyle="white";
+            ctx.font = "100 25px Open Sans";
+            ctx.fillText("challenge seeker",30,30);
+        </script>
     </body>
 </html>
