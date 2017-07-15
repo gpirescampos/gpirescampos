@@ -10,6 +10,16 @@ body {
     background: linear-gradient(#63CD00, #00B4C2); /* Standard syntax */
     z-index: 0;
 }
+.skills-bg {
+    background: rgba(99,205,0,1);
+    background: -moz-linear-gradient(top, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(99,205,0,1)), color-stop(80%, rgba(99,205,0,1)), color-stop(100%, rgba(0,181,194,1)));
+    background: -webkit-linear-gradient(top, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
+    background: -o-linear-gradient(top, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
+    background: -ms-linear-gradient(top, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
+    background: linear-gradient(to bottom, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63cd00', endColorstr='#00b5c2', GradientType=0 );
+}
 .index {
     line-height: 15px;
 }
@@ -105,5 +115,27 @@ body {
     text-align: center;
 }
 .skill-block {
-    
+    margin: 0 auto;
+    width: 42vw;
+    height: 42vw;
+    padding: 5%;
+}
+.skill-block-right {
+    float: right;
+}
+.skill-inner {
+    position: relative;
+    background: #009C00;
+    height: 100%;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(0,124,0,1);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(0,124,0,1);
+    box-shadow: 0px 10px 20px 0px rgba(0,124,0,1);
+}
+.skill-inner > p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
 }
