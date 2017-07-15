@@ -41,14 +41,14 @@ body {
     font-weight: 300 !important;
     text-align: right !important;
 }
-.top {
-    margin-right: -20px;
+.bottom {
+    margin-right: 20px;
 }
 .tink {
     font-size: 17px !important;
     font-weight: 800 !important;
     text-align: right !important;
-    margin-right: -15px;
+    margin-right: 5px;
     margin-top: -5px;
 }
 .intro-text {
@@ -99,4 +99,11 @@ body {
 }
 #c4 {
     top: 34%;
+}
+.skills-title {
+    font-weight: 700 !important;
+    text-align: center;
+}
+.skill-block {
+    
 }
