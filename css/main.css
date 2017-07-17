@@ -151,3 +151,21 @@ body {
     -webkit-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
     filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
 }
+#timeline {
+    height: 60vh;
+    width: 100%;
+}
+.social-title {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+.social-title {
+    padding: 5%;
+    font-size: 16px !important;
+}
+.social-block {
+    padding: 0;
+}
+.social-img {
+    height: 30px;
+}
