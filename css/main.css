@@ -138,4 +138,16 @@ body {
     width: 100%;
     font-size: 15px;
     font-weight: 700;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    -webkit-text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    -moz-text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.skill-img {
+    width: 35%;
+    display: block;
+    margin: auto;
+    padding-top: 20%;
+    -moz-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
+    -webkit-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
 }
