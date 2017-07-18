@@ -23,6 +23,11 @@ body {
 .index {
     line-height: 15px;
 }
+.fullpage {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
 .photo {
     background: url("../img/back.jpg") center center no-repeat;
     background-size: cover;
