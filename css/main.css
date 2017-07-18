@@ -154,6 +154,9 @@ body {
 #timeline {
     height: 60vh;
     width: 100%;
+    /*-moz-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.3));
+    -webkit-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.3));*/
 }
 .social-title {
     margin-bottom: 0 !important;
