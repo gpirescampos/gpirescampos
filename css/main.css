@@ -34,11 +34,6 @@ body {
     left: 0;
     z-index: -1;
 }
-.fullpage {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}
 .footer {
     position: absolute;
     width: 100vw;
@@ -66,10 +61,11 @@ body {
     font-weight: 400 !important;
     font-style: italic !important;
     text-align: right;
+    width: 95%;
 }
 .bottom-definition {
     font-size: 14px !important;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     height: 83vh;
     position: relative;
@@ -86,10 +82,7 @@ body {
     font-weight: bold;
 }
 .two-words {
-    height: 100vh;
-    position: relative;
     width: 100vw;
-    position: absolute;
     left: 0;
 }
 .two-words-canvas {
@@ -99,16 +92,16 @@ body {
     box-shadow: 0px -5px 10px -5px rgba(0, 0, 0, .2);
 }
 #c1 {
-    top: 10%;
+    top: 20%;
 }
 #c2 {
-    top: 18%;
+    top: 28%;
 }
 #c3 {
-    top: 26%;
+    top: 36%;
 }
 #c4 {
-    top: 34%;
+    top: 44%;
 }
 .skills-title {
     font-weight: 700 !important;
