@@ -70,6 +70,7 @@ footer {
     font-style: italic !important;
     text-align: right;
     width: 95%;
+    margin: 10px 0 10px;
 }
 .bottom-definition {
     font-size: 14px !important;
@@ -124,6 +125,10 @@ footer {
 .skill-block-right {
     float: right;
 }
+.skills-title {
+    font-size: 22px;
+    margin: 20px 0 0 0;
+}
 .skill-inner {
     position: relative;
     background: #009C00;
@@ -144,7 +149,7 @@ footer {
     -moz-text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
 }
 .skill-img {
-    width: 35%;
+    width: 50%;
     display: block;
     margin: auto;
     padding-top: 20%;
@@ -155,9 +160,7 @@ footer {
 #timeline {
     height: 60vh;
     width: 100%;
-    /*-moz-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.3));
-    -webkit-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.3));
-    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.3));*/
+    margin: 10px;
 }
 .social-title {
     margin-bottom: 0 !important;

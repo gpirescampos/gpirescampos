@@ -2,31 +2,34 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Guilherme Campos</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <link rel="icon" type="image/png" href="img/logo.png" />
-        <meta name="msapplication-TileColor" content="#63CD00" />
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Guilherme Campos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <meta name="msapplication-TileColor" content="#63CD00" />
+</head>
+
+<body>
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="fullpage index-bg">
-      <div class="container">
         <canvas id="timeline"></canvas>
         <p class="social-title">More to come! In the meantime...</p>
-        <div class="row" style="margin:0 !important;padding:5%;">
+        <div class="row" style="margin:0 !important;padding:5%0 5% 5%;">
             <div class="col-xs-2 social-block">
                 <a href="mailto:gpirescampos@gmail.com" target="_blank">
                     <img class="social-img" src="img/svg/email.svg" />
@@ -58,123 +61,122 @@
                 </a>
             </div>
         </div>
-      </div>
+        <footer>
+            <p>&copy; Guilherme Campos 2017</p>
+        </footer>
     </div>
-
-    <div class="container footer">
-      <footer>
-        <p>&copy; Guilherme Campos 2017</p>
-      </footer>
-    </div> <!-- /container -->        
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
-        <script>
-            var wWidth = $("#timeline").innerWidth();
-            var wHeight = $("#timeline").innerHeight();
-            var c = document.getElementById("timeline");
-            c.width = wWidth;
-            c.height = wHeight;
-            var ctx = c.getContext("2d");
-            ctx.fillStyle="white";
-            ctx.strokeStyle="white";
-            ctx.beginPath();
-            ctx.arc(20,20,4,0,2*Math.PI);
-            ctx.stroke();
-            ctx.fill();
-            ctx.moveTo(20,20);
-            ctx.lineTo(20,80);
-            ctx.stroke();
-            ctx.moveTo(20,90);
-            ctx.arc(20,90,1,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,100);
-            ctx.arc(20,100,1,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,110);
-            ctx.arc(20,110,1,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,120);
-            ctx.lineTo(20,180);
-            ctx.stroke();
-            ctx.moveTo(20,180);
-            ctx.arc(20,180,4,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,180);
-            ctx.lineTo(20,210);
-            ctx.stroke();
-            ctx.moveTo(20,210);
-            ctx.arc(20,210,4,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,210);
-            ctx.lineTo(20,240);
-            ctx.stroke();
-            ctx.moveTo(20,240);
-            ctx.arc(20,240,4,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,240);
-            ctx.lineTo(20,270);
-            ctx.stroke();
-            ctx.moveTo(20,270);
-            ctx.arc(20,270,4,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,270);
-            ctx.lineTo(20,300);
-            ctx.stroke();
-            ctx.moveTo(20,300);
-            ctx.arc(20,300,4,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,300);
-            ctx.lineTo(20,330);
-            ctx.stroke();
-            ctx.moveTo(20,340);
-            ctx.arc(20,340,1,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,350);
-            ctx.arc(20,350,1,0,2*Math.PI);
-            ctx.fill();
-            ctx.moveTo(20,360);
-            ctx.arc(20,360,1,0,2*Math.PI);
-            ctx.fill();
-            ctx.font = "700 12px Open Sans";
-            ctx.fillText("0000",30,25);
-            ctx.fill();
-            ctx.font = "100 12px Open Sans";
-            ctx.fillText("Big bang",70,25);
-            ctx.fill();
-            ctx.font = "700 12px Open Sans";
-            ctx.fillText("1989",30,185);
-            ctx.fill();
-            ctx.font = "100 12px Open Sans";
-            ctx.fillText("Born in Portugal",70,185);
-            ctx.fill();
-            ctx.font = "700 12px Open Sans";
-            ctx.fillText("2013",30,215);
-            ctx.fill();
-            ctx.font = "100 12px Open Sans";
-            ctx.fillText("Electrical and Computers Eng. Master",70,215);
-            ctx.fill();
-            ctx.font = "700 12px Open Sans";
-            ctx.fillText("2013",30,245);
-            ctx.fill();
-            ctx.font = "100 12px Open Sans";
-            ctx.fillText("Joined Accenture",70,245);
-            ctx.fill();
-            ctx.font = "700 12px Open Sans";
-            ctx.fillText("2015",30,275);
-            ctx.fill();
-            ctx.font = "100 12px Open Sans";
-            ctx.fillText("Moved to Deloitte Portugal",70,275);
-            ctx.fill();
-            ctx.font = "700 12px Open Sans";
-            ctx.fillText("2017",30,305);
-            ctx.fill();
-            ctx.font = "100 12px Open Sans";
-            ctx.fillText("Shifted to Deloitte Ireland",70,305);
-            ctx.fill();
-        </script>
-    </body>
+    <script src="js/main.js"></script>
+    <script>
+        var wWidth = $("#timeline").innerWidth();
+        var wHeight = $("#timeline").innerHeight();
+        var c = document.getElementById("timeline");
+        c.width = wWidth;
+        c.height = wHeight;
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "white";
+        ctx.strokeStyle = "white";
+        ctx.beginPath();
+        ctx.arc(20, 20, 4, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.fill();
+        ctx.moveTo(20, 20);
+        ctx.lineTo(20, 80);
+        ctx.stroke();
+        ctx.moveTo(20, 90);
+        ctx.arc(20, 90, 1, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 100);
+        ctx.arc(20, 100, 1, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 110);
+        ctx.arc(20, 110, 1, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 120);
+        ctx.lineTo(20, 180);
+        ctx.stroke();
+        ctx.moveTo(20, 180);
+        ctx.arc(20, 180, 4, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 180);
+        ctx.lineTo(20, 210);
+        ctx.stroke();
+        ctx.moveTo(20, 210);
+        ctx.arc(20, 210, 4, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 210);
+        ctx.lineTo(20, 240);
+        ctx.stroke();
+        ctx.moveTo(20, 240);
+        ctx.arc(20, 240, 4, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 240);
+        ctx.lineTo(20, 270);
+        ctx.stroke();
+        ctx.moveTo(20, 270);
+        ctx.arc(20, 270, 4, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 270);
+        ctx.lineTo(20, 300);
+        ctx.stroke();
+        ctx.moveTo(20, 300);
+        ctx.arc(20, 300, 4, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 300);
+        ctx.lineTo(20, 330);
+        ctx.stroke();
+        ctx.moveTo(20, 340);
+        ctx.arc(20, 340, 1, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 350);
+        ctx.arc(20, 350, 1, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.moveTo(20, 360);
+        ctx.arc(20, 360, 1, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.font = "700 12px Open Sans";
+        ctx.fillText("0000", 30, 25);
+        ctx.fill();
+        ctx.font = "100 12px Open Sans";
+        ctx.fillText("Big bang", 70, 25);
+        ctx.fill();
+        ctx.font = "700 12px Open Sans";
+        ctx.fillText("1989", 30, 185);
+        ctx.fill();
+        ctx.font = "100 12px Open Sans";
+        ctx.fillText("Born in Portugal", 70, 185);
+        ctx.fill();
+        ctx.font = "700 12px Open Sans";
+        ctx.fillText("2013", 30, 215);
+        ctx.fill();
+        ctx.font = "100 12px Open Sans";
+        ctx.fillText("Electrical and Computers Eng. Master", 70, 215);
+        ctx.fill();
+        ctx.font = "700 12px Open Sans";
+        ctx.fillText("2013", 30, 245);
+        ctx.fill();
+        ctx.font = "100 12px Open Sans";
+        ctx.fillText("Joined Accenture", 70, 245);
+        ctx.fill();
+        ctx.font = "700 12px Open Sans";
+        ctx.fillText("2015", 30, 275);
+        ctx.fill();
+        ctx.font = "100 12px Open Sans";
+        ctx.fillText("Moved to Deloitte Portugal", 70, 275);
+        ctx.fill();
+        ctx.font = "700 12px Open Sans";
+        ctx.fillText("2017", 30, 305);
+        ctx.fill();
+        ctx.font = "100 12px Open Sans";
+        ctx.fillText("Shifted to Deloitte Ireland", 70, 305);
+        ctx.fill();
+    </script>
+</body>
+
 </html>
