@@ -72,6 +72,7 @@
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
     </script>
 
+        <script type="text/javascript" src="js/vendor/jquery.touchSwipe.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
 
     <script src="js/main.js"></script>
@@ -179,6 +180,20 @@
         ctx.fillText("Shifted to Deloitte Ireland", 70, 305);
         ctx.fill();
     </script>
+        <script>
+            $(function() {			
+					//Enable swiping...
+					$(document).swipe( {
+						//Generic swipe handler for all directions
+						swipeLeft:function(event, direction, distance, duration, fingerCount, fingerData) {
+						},
+						//Generic swipe handler for all directions
+						swipeRight:function(event, direction, distance, duration, fingerCount, fingerData) {
+							document.location.href = "skills.html";
+						}
+					});
+				});
+        </script>
 </body>
 
 </html>
