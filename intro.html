@@ -45,6 +45,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
+        <script type="text/javascript" src="js/vendor/jquery.touchSwipe.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
@@ -123,6 +124,21 @@
             ctx.fillStyle="white";
             ctx.font = "100 22px Open Sans";
             ctx.fillText("challenge seeker",30,28);
+        </script>
+        <script>
+            $(function() {			
+					//Enable swiping...
+					$(document).swipe( {
+						//Generic swipe handler for all directions
+						swipeLeft:function(event, direction, distance, duration, fingerCount, fingerData) {
+							document.location.href = "skills.html";
+						},
+						//Generic swipe handler for all directions
+						swipeRight:function(event, direction, distance, duration, fingerCount, fingerData) {
+							document.location.href = "index.html";
+						}
+					});
+				});
         </script>
     </body>
 </html>
