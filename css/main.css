@@ -125,15 +125,6 @@ footer {
     font-weight: 700 !important;
     text-align: center;
 }
-.skill-block {
-    margin: 0 auto;
-    width: 42vw;
-    height: 42vw;
-    padding: 5%;
-}
-.skill-block-right {
-    float: right;
-}
 .skills-title {
     font-size: 22px;
     margin: 20px 0 0 0;
@@ -146,10 +137,10 @@ footer {
     -moz-box-shadow: 0px 10px 20px 0px #006c74;
     -o-box-shadow: 0px 10px 20px 0px #006c74;
     box-shadow: 0px 10px 20px 0px #006c74;
+    width: 90%;
+    margin: 10% auto;
 }
 .skill-inner > p {
-    position: absolute;
-    bottom: 0;
     text-align: center;
     width: 100%;
     font-size: 15px;
@@ -160,10 +151,10 @@ footer {
     -o-text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
 }
 .skill-img {
-    width: 50%;
+    width: 60%;
     display: block;
     margin: auto;
-    padding-top: 20%;
+    padding: 7%;
     -moz-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
     -webkit-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
     -o-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
@@ -315,5 +306,19 @@ footer {
     .bottom-definition p {
         line-height: 35px;
         font-size: 20px;
+    }
+    .skills-title {
+        font-size: 50px;
+        margin: 2%;
+    }
+    /*.skill-block {
+        margin: 0 auto;
+        width: 18vw;
+        height: 18vw;
+        padding: 0%;
+        margin: 2%;
+    }*/
+    .skill-inner > p {
+        font-size: 30px;
     }
 }
