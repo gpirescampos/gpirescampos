@@ -72,15 +72,18 @@ footer {
     font-weight: 400 !important;
     font-style: italic !important;
     text-align: right;
-    width: 95%;
-    margin: 10px 0 10px;
+    width: 100%;
+    padding: 15px;
 }
 .bottom-definition {
     font-size: 14px !important;
     width: 90%;
     margin: 0 auto;
     height: 83vh;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10% 5%;
 }
 .bottom-definition p {
     line-height: 25px;
@@ -283,5 +286,34 @@ footer {
     }
     .swipe-img {
         left: 1%;
+    }
+    .intro-text {
+        font-size: 40px !important;
+        width: 100%;
+        padding: 70px 30px;
+        line-height: 20px;
+    }
+    .two-words-canvas {
+        height: 45vh;
+    }
+    #c1 {
+        top: 20%;
+    }
+    #c2 {
+        top: 34%;
+    }
+    #c3 {
+        top: 48%;
+    }
+    #c4 {
+        top: 62%;
+    }
+    .bottom-definition {
+        width: 40%;
+        margin: 2% 5%;
+    }
+    .bottom-definition p {
+        line-height: 35px;
+        font-size: 20px;
     }
 }
