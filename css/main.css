@@ -39,6 +39,9 @@ body {
     left: 0;
     z-index: -1;
 }
+.mask {
+    display: none;
+}
 footer {
     position: absolute;
     width: 100vw;
@@ -69,15 +72,18 @@ footer {
     font-weight: 400 !important;
     font-style: italic !important;
     text-align: right;
-    width: 95%;
-    margin: 10px 0 10px;
+    width: 100%;
+    padding: 15px;
 }
 .bottom-definition {
     font-size: 14px !important;
     width: 90%;
     margin: 0 auto;
     height: 83vh;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10% 5%;
 }
 .bottom-definition p {
     line-height: 25px;
@@ -119,15 +125,6 @@ footer {
     font-weight: 700 !important;
     text-align: center;
 }
-.skill-block {
-    margin: 0 auto;
-    width: 42vw;
-    height: 42vw;
-    padding: 5%;
-}
-.skill-block-right {
-    float: right;
-}
 .skills-title {
     font-size: 22px;
     margin: 20px 0 0 0;
@@ -140,10 +137,10 @@ footer {
     -moz-box-shadow: 0px 10px 20px 0px #006c74;
     -o-box-shadow: 0px 10px 20px 0px #006c74;
     box-shadow: 0px 10px 20px 0px #006c74;
+    width: 90%;
+    margin: 10% auto;
 }
 .skill-inner > p {
-    position: absolute;
-    bottom: 0;
     text-align: center;
     width: 100%;
     font-size: 15px;
@@ -154,10 +151,10 @@ footer {
     -o-text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
 }
 .skill-img {
-    width: 50%;
+    width: 60%;
     display: block;
     margin: auto;
-    padding-top: 20%;
+    padding: 7%;
     -moz-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
     -webkit-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
     -o-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
@@ -171,9 +168,7 @@ footer {
 .social-title {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
-}
-.social-title {
-    padding: 5%;
+    padding: 0 5%;
     font-size: 16px !important;
 }
 .social-block {
@@ -181,6 +176,10 @@ footer {
 }
 .social-img {
     height: 30px;
+}
+.social-links { 
+    margin: 0 !important;
+    padding: 5% 0 5% 5%;
 }
 .swipe-img {
     position: fixed;
@@ -238,5 +237,100 @@ footer {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .photo {
+        /*background: linear-gradient(to left, transparent 0%, white 100%), url("../img/back.jpg") center center no-repeat;*/
+        background-size: cover;
+        position: absolute;
+        width: 100vw;
+        filter: opacity(27%);
+        /*left: 50vw;*/
+        top: 0;
+        z-index: -1;
+    }
+    .title {
+        font-size: 80px !important;
+        font-weight: 300 !important;
+        text-align: right !important;
+        padding-right: 5%;
+        line-height: 40px;
+    }
+    .top {
+        padding-top: 5%;
+    }
+    .bottom {
+        margin-right: 40px;
+    }
+    .tink {
+        font-size: 37px !important;
+        font-weight: 800 !important;
+        text-align: right !important;
+        margin-right: 0px;
+    }
+    footer {
+        position: absolute;
+        width: 100vw;
+        bottom: 0;
+        font-size: 10px;
+        padding-left: 1%;
+    }
+    .swipe-img {
+        left: 1%;
+    }
+    .intro-text {
+        font-size: 40px !important;
+        width: 100%;
+        padding: 70px 30px;
+        line-height: 20px;
+    }
+    .two-words-canvas {
+        height: 45vh;
+    }
+    #c1 {
+        top: 20%;
+    }
+    #c2 {
+        top: 34%;
+    }
+    #c3 {
+        top: 48%;
+    }
+    #c4 {
+        top: 62%;
+    }
+    .bottom-definition {
+        width: 40%;
+        margin: 2% 5%;
+    }
+    .bottom-definition p {
+        line-height: 35px;
+        font-size: 20px;
+    }
+    .skills-title {
+        font-size: 50px;
+        margin: 2%;
+    }
+    .skill-inner > p {
+        font-size: 30px;
+    }
+    .social-title {
+        font-size: 30px !important;
+    }
+    .social-img {
+        height: 60px;
+    }
+    .social-links { 
+        padding: 1% 0 5% 5%;
+    }
+    .social-block {
+        width: 8%;
+    }
+    #timeline {
+        height: 70vh;
+        width: 100%;
+        padding: 4% 4% 0 4%;
     }
 }
