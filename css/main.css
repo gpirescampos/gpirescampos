@@ -168,9 +168,7 @@ footer {
 .social-title {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
-}
-.social-title {
-    padding: 5%;
+    padding: 0 5%;
     font-size: 16px !important;
 }
 .social-block {
@@ -178,6 +176,10 @@ footer {
 }
 .social-img {
     height: 30px;
+}
+.social-links { 
+    margin: 0 !important;
+    padding: 5% 0 5% 5%;
 }
 .swipe-img {
     position: fixed;
@@ -313,5 +315,22 @@ footer {
     }
     .skill-inner > p {
         font-size: 30px;
+    }
+    .social-title {
+        font-size: 30px !important;
+    }
+    .social-img {
+        height: 60px;
+    }
+    .social-links { 
+        padding: 1% 0 5% 5%;
+    }
+    .social-block {
+        width: 8%;
+    }
+    #timeline {
+        height: 70vh;
+        width: 100%;
+        padding: 4% 4% 0 4%;
     }
 }
