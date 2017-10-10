@@ -1,24 +1,13 @@
 body {
     font-family: 'Open Sans', sans-serif !important;
-    color: white;
+    color: #86733E;
 }
 .index-bg {
-    background: #63CD00; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#63CD00, #00B4C2); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#63CD00, #00B4C2); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#63CD00, #00B4C2); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#63CD00, #00B4C2); /* Standard syntax */
+    background: white;
     z-index: 0;
 }
 .skills-bg {
-    background: rgba(99,205,0,1);
-    background: -moz-linear-gradient(top, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(99,205,0,1)), color-stop(80%, rgba(99,205,0,1)), color-stop(100%, rgba(0,181,194,1)));
-    background: -webkit-linear-gradient(top, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
-    background: -o-linear-gradient(top, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
-    background: -ms-linear-gradient(top, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
-    background: linear-gradient(to bottom, rgba(99,205,0,1) 0%, rgba(99,205,0,1) 80%, rgba(0,181,194,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63cd00', endColorstr='#00b5c2', GradientType=0 );
+    background: #86733E;
 }
 .index {
     line-height: 15px;
@@ -29,12 +18,12 @@ body {
     height: 100vh;
 }
 .photo {
-    background: url("../img/back.jpg") center center no-repeat;
+    background: url("../img/informal-sepia.jpg") center center no-repeat;
     background-size: cover;
     position: absolute;
     width: 100vw;
     height: 100vh;
-    filter: opacity(27%);
+    filter: opacity(70%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -90,7 +79,7 @@ footer {
     font-size: 12px;
     position: absolute;
     bottom: 0;
-    border-top: 1px solid white;
+    border-top: 1px solid #86733E;
     width: 100%;
 }
 .bottom-definition span {
@@ -131,34 +120,35 @@ footer {
 }
 .skill-inner {
     position: relative;
-    background: #006c74;
+    background: #86733E;
     height: 100%;
-    -webkit-box-shadow: 0px 10px 20px 0px #006c74;
-    -moz-box-shadow: 0px 10px 20px 0px #006c74;
-    -o-box-shadow: 0px 10px 20px 0px #006c74;
-    box-shadow: 0px 10px 20px 0px #006c74;
+    -webkit-box-shadow: 0px 10px 20px 0px #86733E;
+    -moz-box-shadow: 0px 10px 20px 0px #86733E;
+    -o-box-shadow: 0px 10px 20px 0px #86733E;
+    box-shadow: 0px 10px 20px 0px #86733E;
     width: 90%;
     margin: 10% auto;
 }
 .skill-inner > p {
+    color: white;
     text-align: center;
     width: 100%;
     font-size: 15px;
     font-weight: 700;
-    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
-    -webkit-text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
-    -moz-text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
-    -o-text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    /*text-shadow: 0px 3px 5px white;
+    -webkit-text-shadow: 0px 3px 5px white;
+    -moz-text-shadow: 0px 3px 5px white;
+    -o-text-shadow: 0px 3px 5px white;*/
 }
 .skill-img {
     width: 60%;
     display: block;
     margin: auto;
     padding: 7%;
-    -moz-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
-    -webkit-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
-    -o-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
-    filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.3));
+    -moz-filter: drop-shadow(0px 3px 5px #86733E);
+    -webkit-filter: drop-shadow(0px 3px 5px #86733E);
+    -o-filter: drop-shadow(0px 3px 5px #86733E);
+    filter: drop-shadow(0px 3px 5px #86733E);
 }
 #timeline {
     height: 60vh;
