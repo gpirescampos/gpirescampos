@@ -81,7 +81,7 @@ function introDesktop() {
     c.width = wWidth;
     c.height = wHeight;
     var ctx = c.getContext("2d");
-    ctx.fillStyle="#86733E";
+    ctx.fillStyle="#CCBE97";
     ctx.moveTo(0,0);
     ctx.lineTo(wWidth,0);
     ctx.lineTo(wWidth,wHeight/4.3);
@@ -99,7 +99,7 @@ function introDesktop() {
     c.width = wWidth;
     c.height = wHeight;
     ctx = c.getContext("2d");
-    ctx.fillStyle="#86733E";
+    ctx.fillStyle="#BAAA7D";
     ctx.moveTo(0,0);
     ctx.lineTo(wWidth,0);
     ctx.lineTo(wWidth,wHeight/4.3);
@@ -117,7 +117,7 @@ function introDesktop() {
     c.width = wWidth;
     c.height = wHeight;
     ctx = c.getContext("2d");
-    ctx.fillStyle="#86733E";
+    ctx.fillStyle="#A08E5B";
     ctx.moveTo(0,0);
     ctx.lineTo(wWidth,0);
     ctx.lineTo(wWidth,wHeight/4.3);

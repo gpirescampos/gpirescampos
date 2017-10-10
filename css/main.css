@@ -152,8 +152,8 @@ footer {
 }
 #timeline {
     height: 60vh;
-    width: 100%;
-    margin: 10px;
+    width: 100vw;
+    padding: 10px;
 }
 .social-title {
     margin-bottom: 0 !important;
@@ -236,7 +236,7 @@ footer {
         background-size: cover;
         position: absolute;
         width: 100vw;
-        filter: opacity(27%);
+        filter: opacity(70%);
         /*left: 50vw;*/
         top: 0;
         z-index: -1;
