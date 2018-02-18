@@ -18,7 +18,7 @@ body {
     height: 100vh;
 }
 .photo {
-    background: url("../img/informal-2.jpg") center center no-repeat;
+    background: url("../img/informal-2.png") center center no-repeat;
     background-size: cover;
     position: absolute;
     width: 100vw;
@@ -231,7 +231,7 @@ footer {
 
 @media only screen and (min-width: 500px) {
     .photo {
-        background: url("../img/informal-2.jpg") center no-repeat;
+        background: url("../img/informal-2.png") center no-repeat;
         background-size: 90vh;
         background-position-y: 0vw; 
         
