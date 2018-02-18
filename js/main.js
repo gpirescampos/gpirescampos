@@ -5,7 +5,7 @@ function introMobile() {
     c.width = wWidth;
     c.height = wHeight;
     var ctx = c.getContext("2d");
-    ctx.fillStyle="rgba(95, 75, 139, 0.3)";
+    ctx.fillStyle="rgba(95, 75, 139, 0.4)";
     ctx.moveTo(0,0);
     ctx.lineTo(wWidth,0);
     ctx.lineTo(wWidth,wHeight/4.3);
@@ -23,7 +23,7 @@ function introMobile() {
     c.width = wWidth;
     c.height = wHeight;
     ctx = c.getContext("2d");
-    ctx.fillStyle="rgba(95, 75, 139, 0.3)";
+    ctx.fillStyle="rgba(95, 75, 139, 0.6)";
     ctx.moveTo(0,0);
     ctx.lineTo(wWidth,0);
     ctx.lineTo(wWidth,wHeight/4.3);
@@ -41,7 +41,7 @@ function introMobile() {
     c.width = wWidth;
     c.height = wHeight;
     ctx = c.getContext("2d");
-    ctx.fillStyle="rgba(95, 75, 139, 0.3)";
+    ctx.fillStyle="rgba(95, 75, 139, 0.8)";
     ctx.moveTo(0,0);
     ctx.lineTo(wWidth,0);
     ctx.lineTo(wWidth,wHeight/4.3);
