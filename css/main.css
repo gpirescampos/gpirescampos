@@ -1,13 +1,13 @@
 body {
     font-family: 'Open Sans', sans-serif !important;
-    color: #86733E;
+    color: rgb(95, 75, 139);
 }
 .index-bg {
     background: white;
     z-index: 0;
 }
 .skills-bg {
-    background: #86733E;
+    background: rgb(95, 75, 139);
 }
 .index {
     line-height: 15px;
@@ -79,7 +79,7 @@ footer {
     font-size: 12px;
     position: absolute;
     bottom: 0;
-    border-top: 1px solid #86733E;
+    border-top: 1px solid rgb(95, 75, 139);
     width: 100%;
 }
 .bottom-definition span {
@@ -120,12 +120,12 @@ footer {
 }
 .skill-inner {
     position: relative;
-    background: #86733E;
+    background: rgb(95, 75, 139);
     height: 100%;
-    -webkit-box-shadow: 0px 10px 20px 0px #86733E;
-    -moz-box-shadow: 0px 10px 20px 0px #86733E;
-    -o-box-shadow: 0px 10px 20px 0px #86733E;
-    box-shadow: 0px 10px 20px 0px #86733E;
+    -webkit-box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
+    -moz-box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
+    -o-box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
+    box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
     width: 90%;
     margin: 10% auto;
 }
@@ -145,10 +145,10 @@ footer {
     display: block;
     margin: auto;
     padding: 7%;
-    -moz-filter: drop-shadow(0px 3px 5px #86733E);
-    -webkit-filter: drop-shadow(0px 3px 5px #86733E);
-    -o-filter: drop-shadow(0px 3px 5px #86733E);
-    filter: drop-shadow(0px 3px 5px #86733E);
+    -moz-filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
+    -webkit-filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
+    -o-filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
+    filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
 }
 #timeline {
     height: 60vh;
