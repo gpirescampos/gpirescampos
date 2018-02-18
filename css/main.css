@@ -1,13 +1,13 @@
 body {
     font-family: 'Open Sans', sans-serif !important;
-    color: #86733E;
+    color: rgb(95, 75, 139);
 }
 .index-bg {
     background: white;
     z-index: 0;
 }
 .skills-bg {
-    background: #86733E;
+    background: rgb(95, 75, 139);
 }
 .index {
     line-height: 15px;
@@ -18,12 +18,11 @@ body {
     height: 100vh;
 }
 .photo {
-    background: url("../img/informal-sepia.jpg") center center no-repeat;
+    background: url("../img/informal-2.jpg") center center no-repeat;
     background-size: cover;
     position: absolute;
     width: 100vw;
     height: 100vh;
-    filter: opacity(70%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -45,7 +44,7 @@ footer {
     padding-right: 5%;
 }
 .top {
-    padding-top: 5%;
+    padding-top: 140%;
 }
 .bottom {
     margin-right: 20px;
@@ -79,7 +78,7 @@ footer {
     font-size: 12px;
     position: absolute;
     bottom: 0;
-    border-top: 1px solid #86733E;
+    border-top: 1px solid rgb(95, 75, 139);
     width: 100%;
 }
 .bottom-definition span {
@@ -120,12 +119,12 @@ footer {
 }
 .skill-inner {
     position: relative;
-    background: #86733E;
+    background: rgb(95, 75, 139);
     height: 100%;
-    -webkit-box-shadow: 0px 10px 20px 0px #86733E;
-    -moz-box-shadow: 0px 10px 20px 0px #86733E;
-    -o-box-shadow: 0px 10px 20px 0px #86733E;
-    box-shadow: 0px 10px 20px 0px #86733E;
+    -webkit-box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
+    -moz-box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
+    -o-box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
+    box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
     width: 90%;
     margin: 10% auto;
 }
@@ -145,10 +144,10 @@ footer {
     display: block;
     margin: auto;
     padding: 7%;
-    -moz-filter: drop-shadow(0px 3px 5px #86733E);
-    -webkit-filter: drop-shadow(0px 3px 5px #86733E);
-    -o-filter: drop-shadow(0px 3px 5px #86733E);
-    filter: drop-shadow(0px 3px 5px #86733E);
+    -moz-filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
+    -webkit-filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
+    -o-filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
+    filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
 }
 #timeline {
     height: 60vh;
@@ -174,7 +173,7 @@ footer {
 .swipe-img {
     position: fixed;
     top: 0;
-    left: 2%;
+    left: 92%;
     z-index: 100;
     -webkit-animation: fade 4s infinite;
     -moz-animation: fade 4s infinite;
@@ -232,33 +231,35 @@ footer {
 
 @media only screen and (min-width: 500px) {
     .photo {
-        /*background: linear-gradient(to left, transparent 0%, white 100%), url("../img/back.jpg") center center no-repeat;*/
-        background-size: cover;
-        position: absolute;
-        width: 100vw;
-        filter: opacity(70%);
-        /*left: 50vw;*/
-        top: 0;
-        z-index: -1;
+        background: url("../img/informal-2.jpg") center no-repeat;
+        background-size: 90vh;
+        background-position-y: 0vw; 
+        
+        width: 50vw;
+        height: 100vh;
     }
     .title {
-        font-size: 80px !important;
+        font-size: 6vw !important;
         font-weight: 300 !important;
         text-align: right !important;
-        padding-right: 5%;
-        line-height: 40px;
+        padding-right: 10vw;
+        line-height: 5vh;
+        color: rgb(95, 75, 139);
     }
     .top {
-        padding-top: 5%;
+        padding-top: 40vh;
+        color: rgb(95, 75, 139) !important;
     }
     .bottom {
-        margin-right: 40px;
+        margin-right: 3.5vw;
+        color: rgb(95, 75, 139) !important;
     }
     .tink {
-        font-size: 37px !important;
+        font-size: 2.5vw !important;
         font-weight: 800 !important;
         text-align: right !important;
-        margin-right: 0px;
+        margin-right: 1.5vw;
+        color: rgb(95, 75, 139) !important;
     }
     footer {
         position: absolute;
