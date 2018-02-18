@@ -1,13 +1,13 @@
 body {
     font-family: 'Open Sans', sans-serif !important;
-    color: rgb(95, 75, 139);
+    color: #5f4b8b;
 }
 .index-bg {
     background: white;
     z-index: 0;
 }
 .skills-bg {
-    background: rgb(95, 75, 139);
+    background: #5f4b8b;
 }
 .index {
     line-height: 15px;
@@ -78,7 +78,7 @@ footer {
     font-size: 12px;
     position: absolute;
     bottom: 0;
-    border-top: 1px solid rgb(95, 75, 139);
+    border-top: 1px solid #5f4b8b;
     width: 100%;
 }
 .bottom-definition span {
@@ -119,12 +119,12 @@ footer {
 }
 .skill-inner {
     position: relative;
-    background: rgb(95, 75, 139);
+    background: #5f4b8b;
     height: 100%;
-    -webkit-box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
-    -moz-box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
-    -o-box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
-    box-shadow: 0px 10px 20px 0px rgb(95, 75, 139);
+    -webkit-box-shadow: 0px 10px 20px 0px #5f4b8b;
+    -moz-box-shadow: 0px 10px 20px 0px #5f4b8b;
+    -o-box-shadow: 0px 10px 20px 0px #5f4b8b;
+    box-shadow: 0px 10px 20px 0px #5f4b8b;
     width: 90%;
     margin: 10% auto;
 }
@@ -144,10 +144,10 @@ footer {
     display: block;
     margin: auto;
     padding: 7%;
-    -moz-filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
-    -webkit-filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
-    -o-filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
-    filter: drop-shadow(0px 3px 5px rgb(95, 75, 139));
+    -moz-filter: drop-shadow(0px 3px 5px #5f4b8b);
+    -webkit-filter: drop-shadow(0px 3px 5px #5f4b8b);
+    -o-filter: drop-shadow(0px 3px 5px #5f4b8b);
+    filter: drop-shadow(0px 3px 5px #5f4b8b);
 }
 #timeline {
     height: 60vh;
@@ -244,22 +244,22 @@ footer {
         text-align: right !important;
         padding-right: 10vw;
         line-height: 5vh;
-        color: rgb(95, 75, 139);
+        color: #5f4b8b;
     }
     .top {
         padding-top: 40vh;
-        color: rgb(95, 75, 139) !important;
+        color: #5f4b8b !important;
     }
     .bottom {
         margin-right: 3.5vw;
-        color: rgb(95, 75, 139) !important;
+        color: #5f4b8b !important;
     }
     .tink {
         font-size: 2.5vw !important;
         font-weight: 800 !important;
         text-align: right !important;
         margin-right: 1.5vw;
-        color: rgb(95, 75, 139) !important;
+        color: #5f4b8b !important;
     }
     footer {
         position: absolute;

@@ -59,7 +59,7 @@ function introMobile() {
     c.width = wWidth;
     c.height = wHeight;
     ctx = c.getContext("2d");
-    ctx.fillStyle="rgb(95, 75, 139)";
+    ctx.fillStyle="#5f4b8b";
     ctx.moveTo(0,0);
     ctx.lineTo(wWidth,0);
     ctx.lineTo(wWidth,wHeight/4.3);
@@ -135,7 +135,7 @@ function introDesktop() {
     c.width = wWidth;
     c.height = wHeight;
     ctx = c.getContext("2d");
-    ctx.fillStyle="rgb(95, 75, 139)";
+    ctx.fillStyle="#5f4b8b";
     ctx.moveTo(0,0);
     ctx.lineTo(wWidth,0);
     ctx.lineTo(wWidth,wHeight/4.3);
@@ -158,8 +158,8 @@ function socialMobile() {
     c.width = wWidth;
     c.height = wHeight;
     var ctx = c.getContext("2d");
-    ctx.fillStyle = "rgb(95, 75, 139)";
-    ctx.strokeStyle = "rgb(95, 75, 139)";
+    ctx.fillStyle = "#5f4b8b";
+    ctx.strokeStyle = "#5f4b8b";
     ctx.beginPath();
     ctx.arc(20, 20, 4, 0, 2 * Math.PI);
     ctx.stroke();
@@ -263,8 +263,8 @@ function socialDesktop() {
     c.width = wWidth;
     c.height = wHeight;
     var ctx = c.getContext("2d");
-    ctx.fillStyle = "rgb(95, 75, 139)";
-    ctx.strokeStyle = "rgb(95, 75, 139)";
+    ctx.fillStyle = "#5f4b8b";
+    ctx.strokeStyle = "#5f4b8b";
     ctx.beginPath();
     ctx.arc(20, 20, 4, 0, 2 * Math.PI);
     ctx.stroke();
