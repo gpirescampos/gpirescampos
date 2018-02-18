@@ -18,12 +18,12 @@ body {
     height: 100vh;
 }
 .photo {
-    background: url("../img/informal-sepia.jpg") center center no-repeat;
+    background: url("../img/informal-2.jpg") center center no-repeat;
     background-size: cover;
     position: absolute;
     width: 100vw;
     height: 100vh;
-    filter: opacity(70%);
+    /*filter: opacity(70%);*/
     top: 0;
     left: 0;
     z-index: -1;
@@ -45,7 +45,7 @@ footer {
     padding-right: 5%;
 }
 .top {
-    padding-top: 5%;
+    padding-top: 140%;
 }
 .bottom {
     margin-right: 20px;
@@ -174,7 +174,7 @@ footer {
 .swipe-img {
     position: fixed;
     top: 0;
-    left: 2%;
+    left: 92%;
     z-index: 100;
     -webkit-animation: fade 4s infinite;
     -moz-animation: fade 4s infinite;
