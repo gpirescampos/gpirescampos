@@ -26,7 +26,6 @@ body {
     position: absolute;
     left: 30%;
     top: 30%;
-    width: 45vw;
 }
 
 .sign {
@@ -42,7 +41,6 @@ body {
     display: inline-block;
 }
 
-
 .sign i {
     font: normal 10em/ 0.5em 'League Script', Helvetica, Arial;
     font-weight: bold;
@@ -53,15 +51,57 @@ body {
 }
 
 .sign-2 i {
-    font: normal 3em/ 0.5em sans-serif;
-    line-height: 1;
-    margin: 0;
-    padding: 0;
+    content: "tinkerer";
+    font-family: sans-serif;
+    font-size: 3em;
+    font-style: normal;
+    color: transparent;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: #2b2b2b;
+    position: relative;
     text-transform: uppercase;
-    color: rgb(235, 229, 249);
+    text-shadow: 0px 10px 3px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -20%;
+    left: 80%;
+}
+
+.sign-2 i:before {
+    content: "tinkerer";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(43, 44, 45, 0.1);
+    text-shadow: 
+        0 0 20px rgb(95, 75, 139), 
+        0 0 50px rgba(187, 141, 248, 0.41), 
+        0 0 10px rgb(164, 136, 224), 
+        0 0 50px rgb(120, 95, 175);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(95, 75, 139);
     animation: flicker 4s linear;
+    animation-direction: reverse;
     animation-fill-mode: forwards;
-    text-shadow: 0 0 20px rgb(95, 75, 139), 0 0 10px rgba(187, 141, 248, 0.41), 0 0 100px rgb(164, 136, 224), 0 0 500px rgb(120, 95, 175), 5px 9px 5px rgba(0, 0, 0, 0.5);
+    animation-delay: 4s;
+}
+
+.sign-2 i:after {
+    content: "tinkerer";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.8);
+    text-shadow: 
+        0 0 20px rgb(95, 75, 139), 
+        0 0 50px rgba(187, 141, 248, 0.41), 
+        0 0 10px rgb(164, 136, 224), 
+        0 0 50px rgb(120, 95, 175);
+    animation: flicker 4s linear;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
 }
 
 @keyframes flicker {
