@@ -21,9 +21,11 @@ body {
 }
 
 .container {
+    display: table-cell;
     text-align: center;
     vertical-align: middle;
     width: 100%;
+    margin: 15% 0;
 }
 
 .sign {
@@ -37,10 +39,14 @@ body {
 
 .sign-2 {
     display: inline-block;
+    width: 55%;
+    height: auto;
+    text-align: right;
+    padding: 1% 0;
 }
 
 .sign i {
-    font: normal 10em/ 0.5em 'League Script', Helvetica, Arial;
+    font: normal 10em/0.5em 'League Script', Helvetica, Arial;
     font-weight: bold;
     color: rgb(235, 229, 249);
     animation: flicker 4s linear;
@@ -57,46 +63,36 @@ body {
 .sign-2 i {
     visibility: hidden;
     content: "tinkerer";
-    font-family: sans-serif;
-    font-size: 3em;
-    font-style: normal;
+    font: normal 3em/ 0.5em sans-serif;
     color: transparent;
-    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #2b2b2b;
-    position: relative;
     text-transform: uppercase;
     text-shadow: 0px 10px 3px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    top: -20%;
-    left: 80%;
 }
 
 .sign-2 i:before {
     content: "tinkerer";
-    position: absolute;
-    top: 0;
-    left: 0;
     color: rgba(43, 44, 45, 0.1);
     text-shadow: 
         0 0 20px rgb(95, 75, 139), 
         0 0 50px rgba(187, 141, 248, 0.41), 
         0 0 10px rgb(164, 136, 224), 
         0 0 50px rgb(120, 95, 175);
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(95, 75, 139);
     animation: flicker 4s linear;
     animation-direction: reverse;
     animation-fill-mode: forwards;
     animation-delay: 4s;
+    position: absolute;
+    z-index: -1;
 }
 
 .sign-2 i:after {
     content: "tinkerer";
-    position: absolute;
-    top: 0;
-    left: 0;
     color: transparent;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.8);
     text-shadow: 
         0 0 20px rgb(95, 75, 139), 
