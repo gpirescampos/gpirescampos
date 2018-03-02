@@ -51,6 +51,7 @@ body {
 }
 
 .sign-2 i {
+    visibility: hidden;
     content: "tinkerer";
     font-family: sans-serif;
     font-size: 3em;
@@ -106,6 +107,7 @@ body {
 
 @keyframes flicker {
     0% {
+        visibility: visible;
         opacity: 1;
     }
     1% {
