@@ -46,13 +46,13 @@ body {
     font: normal 10em/0.5em 'League Script', Helvetica, Arial;
     font-weight: bold;
     color: rgb(235, 229, 249);
-    /*animation: flicker 4s linear;
-    animation-fill-mode: forwards;*/
+    animation: flicker 4s linear;
+    animation-fill-mode: forwards;
     text-shadow: 0 0 5px #fff, 0 0 500px rgb(164, 136, 224), 0 0 10px rgb(120, 95, 175), 0 0 20px rgb(225, 217, 241), 0 0 200px rgb(95, 75, 139), 6px 6px 2px rgba(0, 0, 0, 0.5);
 }
 
 .sign-2 i {
-    /*visibility: hidden;*/
+    visibility: hidden;
     content: "tinkerer";
     font: normal 3em/ 0.5em sans-serif;
     color: transparent;
@@ -68,10 +68,10 @@ body {
     text-shadow: 0 0 20px rgb(95, 75, 139), 0 0 50px rgba(187, 141, 248, 0.41), 0 0 10px rgb(164, 136, 224), 0 0 50px rgb(120, 95, 175);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(95, 75, 139);
-    /*animation: flicker 4s linear;
+    animation: flicker 4s linear;
     animation-direction: reverse;
     animation-fill-mode: forwards;
-    animation-delay: 4s;*/
+    animation-delay: 4s;
     position: absolute;
     z-index: -1;
 }
