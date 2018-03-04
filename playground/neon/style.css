@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 
@@ -48,7 +48,7 @@ body {
     color: rgb(235, 229, 249);
     /*animation: flicker 4s linear;
     animation-fill-mode: forwards;*/
-    text-shadow: 0 0 5px #fff, 0 0 10px rgb(164, 136, 224), 0 0 50px rgb(120, 95, 175), 0 0 30px rgb(225, 217, 241), 0 0 200px rgb(95, 75, 139), 6px 6px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 5px #fff, 0 0 500px rgb(164, 136, 224), 0 0 10px rgb(120, 95, 175), 0 0 20px rgb(225, 217, 241), 0 0 200px rgb(95, 75, 139), 6px 6px 2px rgba(0, 0, 0, 0.5);
 }
 
 .sign-2 i {
