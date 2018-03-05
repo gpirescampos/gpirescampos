@@ -43,7 +43,10 @@ body {
 }
 
 .sign i {
-    font: normal 10em/0.5em 'League Script', Helvetica, Arial;
+    font-family: 'League Script', Helvetica, Arial;
+    font-style: normal;
+    font-size: 10em;
+    line-height: 0.5em;
     font-weight: bold;
     color: rgb(235, 229, 249);
     animation: flicker 4s linear;
@@ -54,7 +57,10 @@ body {
 .sign-2 i {
     visibility: hidden;
     content: "tinkerer";
-    font: normal 3em/ 0.5em sans-serif;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 0.5em;
     color: transparent;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #2b2b2b;
