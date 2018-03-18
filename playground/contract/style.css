@@ -1,5 +1,7 @@
-code {
+.code {
     font-family: monospace;
+    background-color: #ddd;
+    padding: 1%;
 }
 
 .demo-ribbon {
