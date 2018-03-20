@@ -37,29 +37,22 @@
                             pragma solidity ^0.4.16;
                             <br> contract MetaCoin {
                             <br>
-                            <br> &nbsp;&nbsp;&nbsp;&nbsp; mapping (address => uint) balances;
-                            <br>
+                            <br> &nbsp;&nbsp;&nbsp;&nbsp;mapping (address => uint) balances;
                             <br>
                             <br> &nbsp;&nbsp;&nbsp;&nbsp;function MetaCoin() {
                             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;balances[tx.origin] = 10000;
                             <br> &nbsp;&nbsp;&nbsp;&nbsp;}
                             <br>
-                            <br>
                             <br> &nbsp;&nbsp;&nbsp;&nbsp;function sendCoin(address receiver, uint amount) returns(bool sufficient)
                             {
                             <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (balances[msg.sender]
                             < amount) return false; <br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;balances[msg.sender] -=amount; balances[receiver] +=amount;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;balances[msg.sender] -= amount; 
+                                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;balances[receiver] += amount;
                                 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return true;
                                 <br> &nbsp;&nbsp;&nbsp;&nbsp;}
                                 <br>
-                                <br>
-                                <br> &nbsp;&nbsp;&nbsp;&nbsp;function getBalanceInEth(address addr) returns(uint) {
-                                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return getBalance(addr);
-                                <br> &nbsp;&nbsp;&nbsp;&nbsp;}
-                                <br>
-                                <br>
-                                <br> &nbsp;&nbsp;&nbsp;&nbsp;function getBalance(address addr) returns(uint) {
+                                <br> &nbsp;&nbsp;&nbsp;&nbsp;function getBalance(address addr) view returns(uint) {
                                 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return balances[addr];
                                 <br> &nbsp;&nbsp;&nbsp;&nbsp;}
                                 <br>
