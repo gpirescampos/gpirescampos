@@ -41,7 +41,7 @@ body {
     justify-content: right;
     align-items: right;
     text-align: right;
-    width: 80%;
+    width: 70%;
 }
 
 .sign i {
@@ -80,6 +80,7 @@ body {
     animation-direction: reverse;
     animation-fill-mode: forwards;
     animation-delay: 4s;
+    animation-iteration-count:infinite;
     position: absolute;
     z-index: -1;
 }
@@ -94,6 +95,7 @@ body {
     animation-direction: reverse;
     animation-fill-mode: forwards;
     animation-delay: 4s;
+    animation-iteration-count:infinite;
 }
 
 @keyframes flicker {
