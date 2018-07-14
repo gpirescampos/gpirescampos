@@ -2,7 +2,9 @@
 
 :root {
     --main-color: #300030;
-    --secondary-color: #09B299;
+    --secondary-color-1: #3FB094;
+    --secondary-color-2: rgb(99, 192, 169);
+    --secondary-color-3: rgb(162, 199, 190);
   }
 
 * {
@@ -25,7 +27,7 @@ body {
     height: 100%;
 }
 .sign, .sign-2 {
-    cursor: default;
+    cursor: pointer;
 }
 .sign {
     padding: 1% 3%;
@@ -74,9 +76,9 @@ body {
 .sign-2 i:before {
     content: "tinkerer";
     color: rgba(43, 44, 45, 0.1);
-    text-shadow: 0 0 20px rgb(95, 75, 139), 0 0 50px rgba(187, 141, 248, 0.41), 0 0 10px rgb(164, 136, 224), 0 0 50px rgb(120, 95, 175);
+    text-shadow: 0 0 20px var(--secondary-color-2), 0 0 50px var(--secondary-color-1), 0 0 10px var(--secondary-color-3), 0 0 50px var(--secondary-color-2);
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(95, 75, 139);
+    -webkit-text-stroke-color: var(--secondary-color);
     animation: flicker 4s linear;
     animation-direction: reverse;
     animation-fill-mode: forwards;
@@ -90,8 +92,8 @@ body {
     content: "tinkerer";
     color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgba(255, 255, 255, 0.8);
-    text-shadow: 0 0 20px rgb(95, 75, 139), 0 0 50px rgba(187, 141, 248, 0.41), 0 0 10px rgb(164, 136, 224), 0 0 50px rgb(120, 95, 175);
+    -webkit-text-stroke-color: var(--secondary-color-3);
+    text-shadow: 0 0 20px var(--secondary-color-2), 0 0 50px var(--secondary-color-1), 0 0 10px var(--secondary-color-3), 0 0 50px var(--secondary-color-2);
     animation: flicker 4s linear;
     animation-direction: reverse;
     animation-fill-mode: forwards;
