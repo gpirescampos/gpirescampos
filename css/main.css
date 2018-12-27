@@ -1,0 +1,12 @@
+.hero.is-info {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)), url('../assets/photo.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
